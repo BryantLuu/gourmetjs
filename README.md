@@ -9,11 +9,13 @@ $ npm install
 Run `node dump.js dir` and it will dump out the directory
 
 ```
-$ node dump.js /tmp
+$ node dump.js test_dir
 
-foo/
-bar.js
 123/
-  abc.txt
+  456/
+    def.txt
+  abc.txt
+bar.js
 baz.js
+foo/
 ```
